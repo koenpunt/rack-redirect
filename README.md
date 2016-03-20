@@ -26,7 +26,7 @@ Add to `config.ru`:
 require 'rack/redirect'
 use Rack::Redirect, {
   '/some/path'    => '/new/path',
-  %r{^/profiles}' => '/users'
+  %r{^/profiles}  => '/users'
 }
 
 use Rack::Redirect, {
@@ -41,7 +41,7 @@ Add to `config/application.rb` (or any of the environment files):
 ```rb
 config.middleware.insert_before 0, Rack::Redirect, {
   '/some/path'    => '/new/path',
-  %r{^/profiles}' => '/users'
+  %r{^/profiles}  => '/users'
 }
 
 config.middleware.insert_before 0, Rack::Redirect, {
