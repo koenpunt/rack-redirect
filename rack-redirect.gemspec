@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rack/redirect/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rack-redirect"
+  spec.name          = "rack_redirect"
   spec.version       = Rack::Redirect::VERSION
   spec.authors       = ["Koen Punt"]
   spec.email         = ["koen@koenpunt.nl"]
