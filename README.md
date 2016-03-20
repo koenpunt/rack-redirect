@@ -9,7 +9,7 @@ By default to redirect requests based on path, but can be easily extended to mat
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rack-redirect'
+gem 'rack_redirect'
 ```
 
 And then execute:
